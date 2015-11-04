@@ -1,1 +1,2 @@
-Distributed Systems homework in Python.
+Distributed Systems in Python.
+DIHT, 2015.
