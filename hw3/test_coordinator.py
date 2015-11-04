@@ -105,8 +105,8 @@ def main():
 
         # backup appears but master does not ack
         for i in range(longDelay):
-            
-            info = service.ping(0, srv1)
+            service.ping(0, srv1)
+            info = service.ping(currentView, srv3)
             if info.number == currentView + 1:
                 break
             service.tick()
