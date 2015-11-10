@@ -1,2 +1,2 @@
-Distributed Systems in Python.
-DIHT, 2015.
+Distributed Systems in Python
+DIHT, 2015
